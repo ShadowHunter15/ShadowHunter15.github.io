@@ -664,6 +664,7 @@ header .header-content .content p {
     position: relative;
     z-index: 10;
     color: #FFF;
+    align-items: center;
 }
 
 .contact .container h2 {
@@ -712,12 +713,15 @@ header .header-content .content p {
 
 .contact .container .content {
     width: 100%;
+    margin: auto 50%;
+
 }
 
 .contact .container .content ul {
     padding: 0;
-    margin: 0;
+    margin-right: 0;
     list-style: none;
+    width: 100%;
 }
 
 .contact .container .content ul li {
