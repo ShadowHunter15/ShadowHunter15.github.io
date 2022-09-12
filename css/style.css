@@ -531,8 +531,48 @@ header .header-content .content p {
     display: grid;
     place-items: center;
     color: #FFF;
+    font-size: .9rem;
+    font-weight: 500;
+}
+.gallery .images .imgBox div.l:hover::before{
+    content: "Gods DO play dice with the universe. My submission to the 2022 GMTK game jam.";
+    text-align: center;
+    position: absolute;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
+    z-index: 999;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    color: #FFF;
     font-size: 1rem;
     font-weight: 500;
+}
+
+
+.hide{
+    display:none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.gallery .images .imgBox div:hover + .hide, .hide:hover{
+    background-color: rgb(75, 75, 214);
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    border:3px solid crimson;
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 145px;
+    margin-left: 135px;
+    display: inline-block;
+    margin-bottom: 20px;
+    z-index: 1000;
+
+
 }
 .life-history {
     background: url(../images/2.jpg);
