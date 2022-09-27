@@ -43,7 +43,10 @@ header::after {
     height: 100%;
     background-color: rgba(0, 0, 0, .3);
 }
-
+header .header-content .content h6 {
+    color: #FFF;
+    font-weight: 600;
+    font-size: 1rem;
 header nav.navbar {
     z-index: 9999;
     background-color: rgba(0, 0, 0, .5);
